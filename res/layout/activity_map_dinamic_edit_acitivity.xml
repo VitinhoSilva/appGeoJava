@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapDinamicEditAcitivity">
+
+    <Button
+        android:id="@+id/marcar_manual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="buttonMarcarPontoManual"
+        android:text="Marcar manualmente"
+        android:textColor="#ffffff"
+        android:backgroundTint="#0f82d2"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </Button>
+
+    <Button
+        android:id="@+id/atual_ponto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:backgroundTint="#0f82d2"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="buttonLocaAtual"
+        android:text="Localização atual"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@id/marcar_manual"
+        tools:ignore="MissingConstraints">
+    </Button>
+
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp">
+    </com.esri.arcgisruntime.mapping.view.MapView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

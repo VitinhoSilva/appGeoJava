@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SobreActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="230dp"
+            android:layout_height="158dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/logotecgeo" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="121dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="GeoDefesa"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <com.codesgood.views.JustifiedTextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="O GeoDefesa foi desenvolvido pela TecGeo com objetivo de proteger e precaver todas as ocorrências de risco da nossa cidade, por ações da natureza. Fique por dentro de todas melhorias que fazemos para você e sua família se sentirem seguros."
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <ImageView
+            android:id="@+id/instaView"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="3dp"
+            android:onClick="imageInsta"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/faceView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintVertical_bias="0.174"
+            app:srcCompat="@mipmap/instagram" />
+
+        <ImageView
+            android:id="@+id/faceView"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="3dp"
+            android:onClick="imageFace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linkView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/instaView"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintVertical_bias="0.174"
+            app:srcCompat="@mipmap/facebook" />
+
+
+        <ImageView
+            android:id="@+id/linkView"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="3dp"
+            android:onClick="imageLinkedin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/siteView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/faceView"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintVertical_bias="0.174"
+            app:srcCompat="@mipmap/linkedin" />
+
+        <ImageView
+            android:id="@+id/siteView"
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="16dp"
+            android:onClick="imageSite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/linkView"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:layout_constraintVertical_bias="0.174"
+            app:srcCompat="@mipmap/domain" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

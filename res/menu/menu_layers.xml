@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/arearisco"
+            android:icon="@drawable/risk_menu_icon"
+            android:title="Áreas de risco"
+            app:actionLayout="@layout/widget_check"/>
+        <item
+            android:id="@+id/abrigo"
+            android:icon="@drawable/abrigo_menu_icon"
+            android:title="Abrigos"
+            app:actionLayout="@layout/widget_check"/>
+        <item
+            android:id="@+id/lona"
+            android:icon="@drawable/lona_menu_icon"
+            android:title="Lonas"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/vistoria"
+            android:icon="@drawable/survey_menu_icon"
+            android:title="Vistorias"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/pontosdeapoio"
+            android:icon="@drawable/ic_placeholder"
+            android:title="Pontos de apoio"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/pessoa"
+            android:icon="@drawable/ic_avatar"
+            android:title="Pessoas"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/chamado"
+            android:icon="@drawable/ic_chamado"
+            android:title="Chamados"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/ocorrencia"
+            android:icon="@drawable/ic_danger"
+            android:title="Ocorrências"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/edificacao"
+            android:icon="@drawable/ic_edificacoes"
+            android:title="Edificações"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/equipamento"
+            android:icon="@drawable/ic_equipamentos"
+            android:title="Equipamentos"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/lote"
+            android:icon="@drawable/ic_lote"
+            android:title="Lotes"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/bairro"
+            android:icon="@drawable/ic_bairro"
+            android:title="Bairros"
+            app:actionLayout="@layout/widget_check"/>
+
+        <item
+            android:id="@+id/todos"
+            android:icon="@drawable/ic_todos"
+            android:title="Todos"
+            app:actionLayout="@layout/widget_check"/>
+    </group>
+</menu>

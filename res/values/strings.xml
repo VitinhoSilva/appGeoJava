@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GeoDefesa</string>
+    <string name="pontos_de_apoio_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/76</string>
+    <string name="equipamentos_publicos_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/75</string>
+    <string name="ocorrencias_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/78</string>
+    <string name="chamados_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/80</string>
+    <string name="abrigos_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/83</string>
+    <string name="pessoas_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/86</string>
+    <string name="solicitacao_de_lona_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/88</string>
+    <string name="vistoria_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/89</string>
+    <string name="edificacoes_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/74</string>
+    <string name="areas_de_risco_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/81</string>
+    <string name="lote_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/91</string>
+    <string name="bairro_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/MapServer/77</string>
+    <string name="abrigos_feature_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/FeatureServer/83</string>
+    <string name="lona_feature_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/FeatureServer/88</string>
+    <string name="vistoria_feature_url">http://192.168.25.218/gis/rest/services/cartografia/defesa_civil/FeatureServer/89</string>
+    <string name="feature_added">Adicionado com sucesso!</string>
+    <string name="error_cannot_add_to_feature_table">Não é possível adicinar feição a esta feature table!</string>
+    <string name="error_applying_edits">Exception applying edits on server: %s</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Fechar</string>
+</resources>
